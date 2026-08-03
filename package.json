@@ -1,0 +1,20 @@
+{
+  "name": "@ditthtzyrine/helper",
+  "version": "1.0.0",
+  "description": "Utility helper for WhatsApp & Telegram Bot",
+  "main": "index.js",
+  "type": "module",
+  "author": "Radithya Atha R",
+  "license": "MIT",
+  "keywords": [
+    "telegram",
+    "whatsapp",
+    "helper",
+    "javascript",
+    "utility",
+    "bot"
+  ],
+  "dependencies": {
+    "axios": "^1.11.0"
+  }
+}
