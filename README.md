@@ -1,27 +1,32 @@
-# @ditthtzyrine/helper
+# ditthtzyrine-helper
 
 <p align="center">
-  <img src="https://img.shields.io/npm/v/@ditthtzyrine/helper?style=for-the-badge" />
-  <img src="https://img.shields.io/npm/dm/@ditthtzyrine/helper?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/ditthtzyrine/helper?style=for-the-badge" />
+
+<img src="https://img.shields.io/github/license/ditthtzyrine/ditthtzyrine-helper?style=for-the-badge"/>
+
+<img src="https://img.shields.io/github/stars/ditthtzyrine/ditthtzyrine-helper?style=for-the-badge"/>
+
+<img src="https://img.shields.io/github/forks/ditthtzyrine/ditthtzyrine-helper?style=for-the-badge"/>
+
+<img src="https://img.shields.io/github/issues/ditthtzyrine/ditthtzyrine-helper?style=for-the-badge"/>
+
 </p>
 
-A lightweight utility package for JavaScript, WhatsApp bots, Telegram bots, and Node.js applications.
+A lightweight helper library for JavaScript, Node.js, WhatsApp Bots, and Telegram Bots.
 
 ---
 
 ## ✨ Features
 
-- 🚀 Fast & lightweight
-- 📦 ESM support
-- 🌐 Fetch JSON & Buffer
-- ⏳ Sleep helper
-- 🎲 Random number generator
-- 🆔 Unique ID generator
-- 💾 Format bytes
-- ⏱ Runtime formatter
-- 🔗 URL validator
-- 🔠 String capitalization
+- 📡 Fetch JSON
+- 📥 Fetch Buffer
+- 😴 Sleep
+- 🎲 Random Number
+- 🆔 Generate ID
+- 💾 Format Bytes
+- ⏱ Runtime Formatter
+- 🔗 URL Validator
+- 🔠 Capitalize String
 
 ---
 
@@ -31,31 +36,31 @@ A lightweight utility package for JavaScript, WhatsApp bots, Telegram bots, and 
 npm install @ditthtzyrine/helper
 ```
 
-or
+> Coming soon. Currently available via GitHub.
 
-```bash
-yarn add @ditthtzyrine/helper
+---
+
+## 📖 Example
+
+```js
+import {
+    fetchJSON,
+    generateID,
+    runtime
+} from "@ditthtzyrine/helper";
+
+const data = await fetchJSON("https://api.github.com");
+
+console.log(generateID());
+
+console.log(runtime(process.uptime()));
 ```
 
 ---
 
-## 🚀 Usage
+## 📜 License
 
-```js
-import {
-  fetchJSON,
-  fetchBuffer,
-  sleep,
-  random,
-  generateID,
-  runtime,
-  formatBytes,
-  isUrl,
-  capitalize
-} from "@ditthtzyrine/helper";
-
-const github = await fetchJSON("https://api.github.com");
-
+MIT © Radithya Atha R
 console.log(github);
 
 await sleep(1000);
